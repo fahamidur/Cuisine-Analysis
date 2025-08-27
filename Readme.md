@@ -89,7 +89,7 @@ To visualize and explore the enriched dataset, four interactive Tableau dashboar
 - **Average protein** of cuisines with/without seafood (bar chart).  
 - **Correlation heatmap** between ingredients and nutritional values.  
 
-🔗 **Live Dashboard**: <a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">Explore on Tableau Public</a>
+🔗 **Live Dashboard**: <a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">Explore on Tableau Public</a>
  
 
 # Tableau Dashboards
