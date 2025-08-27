@@ -165,7 +165,7 @@ This dashboard explores how the presence of specific ingredients (meat, dairy, s
 **Visualizations & Features**
 
 * Bar charts comparing average calories (with/without meat), average fat (with/without dairy), and average protein (with/without seafood).
-* Scatter plot showing the relation between cooking time and number of ingredients, with labeled standout recipes (e.g., Chef John’s Mulligatawny Soup, Puerto Rican Sancocho).
+* Scatter plot shows the relation between cooking time and number of ingredients, with labeled standout recipes (e.g., Chef John’s Mulligatawny Soup, Puerto Rican Sancocho).
 * Correlation heatmap between ingredient categories (dairy, fruit, grain, herb, meat, seafood, spice, vegetable) and nutrient measures (calories, carbs, fat, protein).
 
 **Insights**
