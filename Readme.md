@@ -93,7 +93,7 @@ To visualize and explore the enriched dataset, four interactive Tableau dashboar
 # Tableau Dashboards
 ## Dashboard 1: Cuisine Analysis
 
-![Cuisine Analysis](screenshots\dashboard-1.PNG)
+![Cuisine Analysis](screenshots/dashboard-1.PNG)
 
 **Description**  
 This dashboard provides a global analysis of cuisine nutrition, highlighting calorie, fat, carb, and protein distributions across countries and recipes.  
@@ -112,7 +112,7 @@ This dashboard provides a global analysis of cuisine nutrition, highlighting cal
 
 ## Dashboard 2: Recipe Popularity
 
-![Recipe Popularity](screenshots\dashboard-2.PNG)
+![Recipe Popularity](screenshots/dashboard-2.PNG)
 
 **Description**  
 This dashboard explores recipe popularity by analyzing ratings, cooking time, and serving patterns across cuisines and countries.  
@@ -131,7 +131,7 @@ This dashboard explores recipe popularity by analyzing ratings, cooking time, an
 
 ## Dashboard 3: Nutritional Deep Dive
 
-![Nutritional Deep Dive](screenshots\dashboard-3.PNG)
+![Nutritional Deep Dive](screenshots/dashboard-3.PNG)
 
 **Description**  
 This dashboard provides a detailed breakdown of nutrition and ingredients in top-rated cuisines, along with calorie and protein comparisons across countries.  
@@ -155,7 +155,7 @@ This dashboard provides a detailed breakdown of nutrition and ingredients in top
 
 ## Dashboard 4: Ingredient & Nutrition Impact
 
-![Ingredient & Nutrition Impact](screenshots\dashboard-4.PNG)
+![Ingredient & Nutrition Impact](screenshots/dashboard-4.PNG)
 
 **Description**
 This dashboard explores how the presence of specific ingredients (meat, dairy, seafood, grains, etc.) impacts the nutritional profile of cuisines. It also highlights the relationship between cooking complexity (time and ingredient count) and nutrient distribution.
