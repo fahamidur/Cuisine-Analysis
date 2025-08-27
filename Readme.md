@@ -4,7 +4,7 @@
 This project collects, processes, and analyzes recipes from **AllRecipes.com** to uncover global cooking patterns, nutritional trends, and cultural differences in food preparation. It is designed for **food enthusiasts, nutrition researchers, data analysts, and anyone interested in exploring culinary diversity** through data-driven insights and interactive visualizations.
 
 ### Website
-<a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition" target="_blank">🔗 Cuisine Analysis Dashboard</a>
+<a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">🔗 Cuisine Analysis Dashboard</a>
 
 
 # Table of Contents
@@ -140,7 +140,7 @@ This dashboard provides a detailed breakdown of nutrition and ingredients in top
 
 **Visualizations & Features**  
 - Ingredient distribution matrix for top 10 recipes by rating (dairy, fruit, grain, herbs, meat, seafood, spices, vegetables).  
-- Horizontal bar charts for nutrient composition (carbs, fat, protein) by recipe.  
+- Horizontal bar charts for nutrient composition (carbs, fat, protein) of cuisines by rating.  
 - Country-level calorie comparison (Italy, Portugal, Indonesia leading).  
 - Cuisine complexity chart showing recipes with the highest ingredient count.  
 - Box plots of calorie distribution for top 5 countries by calories.  
