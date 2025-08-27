@@ -4,7 +4,8 @@
 This project collects, processes, and analyzes recipes from **AllRecipes.com** to uncover global cooking patterns, nutritional trends, and cultural differences in food preparation. It is designed for **food enthusiasts, nutrition researchers, data analysts, and anyone interested in exploring culinary diversity** through data-driven insights and interactive visualizations.
 
 ### Website
-[Cuisine Analaysis](https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition" target="_blank">🔗 Cuisine Analysis Dashboard</a>
+
 
 # Table of Contents
 1. [Cuisine Analysis](#cuisine-analysis)  
@@ -88,7 +89,8 @@ To visualize and explore the enriched dataset, four interactive Tableau dashboar
 - **Average protein** of cuisines with/without seafood (bar chart).  
 - **Correlation heatmap** between ingredients and nutritional values.  
 
-🔗 **Live Dashboard**: [Explore on Tableau Public](https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+🔗 **Live Dashboard**: <a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">Explore on Tableau Public</a>
+ 
 
 # Tableau Dashboards
 ## Dashboard 1: Cuisine Analysis
