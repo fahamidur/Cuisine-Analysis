@@ -178,7 +178,3 @@ This dashboard explores how the presence of specific ingredients (meat, dairy, s
   * Vegetables and herbs contribute moderately to protein content.
   * Grains correlate most strongly with carbs (0.30).
   * Spices show minimal direct nutrient impact.
-
-
-
-
