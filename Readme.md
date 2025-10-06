@@ -112,7 +112,7 @@ This dashboard explores recipe popularity by analyzing ratings, cooking time, an
 
 **Visualizations & Features**
 
-* Scatter plot of cooking time vs. average rating, sized by recipe popularity.
+* Box-and-whisker plot comparing recipe preparation times across star ratings, showing medians, interquartile ranges, and outliers.
 * Bar chart showing the distribution of cooking times across recipes.
 * Treemap of top 10 countries by average rating and servings.
 * Pie chart of the top 10 cuisines by rating.
@@ -122,7 +122,7 @@ This dashboard explores recipe popularity by analyzing ratings, cooking time, an
 * Most recipes are completed within 60 minutes, with fewer recipes requiring extended cooking times.
 * Higher-rated recipes tend to cluster between 4–5 stars regardless of cooking time, suggesting rating is less dependent on prep duration.
 * Denmark, Australia, and Norway appear among the top countries for high-rated and widely served recipes.
-* Popular dishes include Tex-Mex Salsa, Filipino Pancit, Chimichurri, and others, showing diversity in global favorites.
+* Popular dishes include Air Fryer Tofu Milanesa, Apple Danish with Cresent Roll Dough, Canjika, and others, showing diversity in global favorites.
 
 ## Dashboard 3: Nutritional Deep Dive
 
@@ -133,7 +133,7 @@ This dashboard provides a detailed breakdown of nutrition and ingredients in top
 
 **Visualizations & Features**
 
-* Ingredient distribution matrix for top 10 recipes by rating (dairy, fruit, grain, herbs, meat, seafood, spices, vegetables).
+* Ingredient distribution matrix for top 5 recipes by rating (dairy, fruit, grain, herbs, meat, seafood, spices, vegetables).
 * Horizontal bar charts for nutrient composition (carbs, fat, protein) of cuisines by rating.
 * Country-level calorie comparison (Italy, Portugal, Indonesia leading).
 * Cuisine complexity chart showing recipes with the highest ingredient count.

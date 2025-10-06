@@ -1195,6 +1195,7 @@
               <approx-count>44</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Cuisine</remote-name>
@@ -1209,6 +1210,7 @@
               <approx-count>3165</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Link</remote-name>
@@ -1223,6 +1225,7 @@
               <approx-count>3165</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total_Time</remote-name>
@@ -1236,6 +1239,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>255</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Servings</remote-name>
@@ -1249,6 +1253,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>50</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total_Rating</remote-name>
@@ -1262,6 +1267,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>30</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Rating_Count</remote-name>
@@ -1275,6 +1281,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>701</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Calories</remote-name>
@@ -1288,6 +1295,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1263</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Fat</remote-name>
@@ -1301,6 +1309,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>109</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Carbs</remote-name>
@@ -1314,6 +1323,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>160</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Protein</remote-name>
@@ -1327,6 +1337,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>98</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>num_ingredients</remote-name>
@@ -1340,6 +1351,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>primary_ingredient</remote-name>
@@ -1354,6 +1366,7 @@
               <approx-count>73</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Pivot Field Names</remote-name>
@@ -1368,6 +1381,7 @@
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Pivot Field Values</remote-name>
@@ -1381,6 +1395,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -7784,7 +7799,7 @@
       <activation auto-clear='true' type='on-select' />
       <source dashboard='Nutritional Deep Dive' type='sheet' />
       <command command='tsc:brush'>
-        <param name='field-captions' value='Ingredient Status Value,Measure Names' />
+        <param name='field-captions' value='Ingredient Status Value' />
         <param name='target' value='Nutritional Deep Dive' />
       </command>
     </action>
@@ -9422,7 +9437,7 @@
           <style-rule element='legend-title-text'>
             <format attr='color' field='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Values:nk]' value='Ingredient Status'>
               <formatted-text>
-                <run>Ingredient Status</run>
+                <run fontalignment='0'>Ingredient Status</run>
               </formatted-text>
             </format>
           </style-rule>
@@ -9572,7 +9587,7 @@
           <style-rule element='legend-title-text'>
             <format attr='color' field='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[:Measure Names]' value=' Neutrients'>
               <formatted-text>
-                <run> Neutrients</run>
+                <run fontalignment='1'> Neutrients</run>
               </formatted-text>
             </format>
           </style-rule>
@@ -10394,8 +10409,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='132' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='135' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='134' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8162' id='22' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>Ingredient Impact</run>
@@ -10470,7 +10485,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='269' h='49599' id='5' is-fixed='true' name='Average Calories of Cuisines With /Without Meat' w='27840' x='425' y='9217'>
-                  <layout-cache minheight='156' type-h='scalable' type-w='cell' />
+                  <layout-cache cell-count-w='2' minheight='156' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -10480,7 +10495,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='269' h='49599' id='8' is-fixed='true' name='Average Fat of Cuisines With /Without Dairy' w='27840' x='28265' y='9217'>
-                  <layout-cache type-h='fixed' type-w='cell' />
+                  <layout-cache cell-count-w='2' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -10726,8 +10741,8 @@
           </layout-options>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='195' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='194' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='197' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='196' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='50' h='7651' id='35' type-v2='title' w='99150' x='425' y='1055'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10798,7 +10813,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='12521' id='3' is-fixed='true' name='Top Calories Cusine' w='16525' x='425' y='8706'>
+                <zone fixed-size='92' h='12517' id='3' is-fixed='true' name='Top Calories Cusine' w='16525' x='425' y='8706'>
                   <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='cell' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10808,7 +10823,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='12521' id='16' is-fixed='true' name='Lowest Calories Cusine' w='16525' x='16950' y='8706'>
+                <zone fixed-size='92' h='12517' id='16' is-fixed='true' name='Lowest Calories Cusine' w='16525' x='16950' y='8706'>
                   <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10818,7 +10833,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='12521' id='5' is-fixed='true' name='Top Fat Cusine' w='16525' x='33475' y='8706'>
+                <zone fixed-size='92' h='12517' id='5' is-fixed='true' name='Top Fat Cusine' w='16525' x='33475' y='8706'>
                   <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10828,7 +10843,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='12521' id='54' is-fixed='true' name='Low Fat Cusine' w='16525' x='50000' y='8706'>
+                <zone fixed-size='92' h='12517' id='54' is-fixed='true' name='Low Fat Cusine' w='16525' x='50000' y='8706'>
                   <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10838,7 +10853,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='12521' id='55' is-fixed='true' name='Highest Carbs' w='16525' x='66525' y='8706'>
+                <zone fixed-size='92' h='12517' id='55' is-fixed='true' name='Highest Carbs' w='16525' x='66525' y='8706'>
                   <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10848,7 +10863,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='12521' id='56' is-fixed='true' name='Lowest Carbs' w='16525' x='83050' y='8706'>
+                <zone fixed-size='92' h='12517' id='56' is-fixed='true' name='Lowest Carbs' w='16525' x='83050' y='8706'>
                   <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10858,7 +10873,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='77718' id='52' is-fixed='true' name='Average Calories in Each country' w='51777' x='425' y='21227'>
+                <zone fixed-size='280' h='77722' id='52' is-fixed='true' name='Average Calories in Each country' w='51775' x='425' y='21223'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -10876,7 +10891,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='77718' id='57' is-fixed='true' name='Average Neutrients in Each Country' w='47373' x='52202' y='21227'>
+                <zone fixed-size='280' h='77722' id='57' is-fixed='true' name='Average Neutrients in Each Country' w='47375' x='52200' y='21223'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -10912,11 +10927,11 @@
       <size minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='87872' id='22' param='horz' type-v2='layout-flow' w='99150' x='425' y='11073'>
-            <zone h='87872' id='10' type-v2='layout-basic' w='99150' x='425' y='11073'>
-              <zone h='87872' id='7' param='horz' type-v2='layout-flow' w='48246' x='425' y='11073'>
-                <zone h='87872' id='5' type-v2='layout-basic' w='48246' x='425' y='11073'>
-                  <zone h='45918' id='16' name='Nutrient Composition of Cuisine by Rating' w='48246' x='425' y='11073'>
+          <zone h='87873' id='22' param='horz' type-v2='layout-flow' w='99150' x='425' y='11072'>
+            <zone h='87873' id='10' type-v2='layout-basic' w='99150' x='425' y='11072'>
+              <zone h='87873' id='7' param='horz' type-v2='layout-flow' w='48245' x='425' y='11072'>
+                <zone h='87873' id='5' type-v2='layout-basic' w='48245' x='425' y='11072'>
+                  <zone h='45918' id='16' name='Nutrient Composition of Cuisine by Rating' w='48245' x='425' y='11072'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10924,7 +10939,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='21901' id='9' name='Country by Calories' w='48246' x='425' y='56991'>
+                  <zone h='21900' id='9' name='Country by Calories' w='48245' x='425' y='56990'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10932,7 +10947,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='20053' id='20' name='Top Cuisine Complexity' w='48246' x='425' y='78892'>
+                  <zone h='20055' id='20' name='Top Cuisine Complexity' w='48245' x='425' y='78890'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10942,7 +10957,7 @@
                   </zone>
                 </zone>
               </zone>
-              <zone h='41953' id='25' name='Calory Distribution of Top 5 Countries By Calories' w='24914' x='48671' y='56992'>
+              <zone h='41954' id='25' name='Calory Distribution of Top 5 Countries By Calories' w='24913' x='48670' y='56991'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -10950,7 +10965,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='41953' id='26' name='Protine Distribution of Top 5 Countries By Protine' w='25990' x='73585' y='56992'>
+              <zone h='41954' id='26' name='Protine Distribution of Top 5 Countries By Protine' w='25992' x='73583' y='56991'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -10958,7 +10973,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='45919' id='3' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50904' x='48671' y='11073'>
+              <zone h='45919' id='3' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50905' x='48670' y='11072'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -10968,8 +10983,8 @@
               </zone>
             </zone>
           </zone>
-          <zone h='10018' id='23' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
-            <zone forceUpdate='true' h='10018' id='24' type-v2='text' w='99150' x='425' y='1055'>
+          <zone h='10017' id='23' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone forceUpdate='true' h='10017' id='24' type-v2='text' w='99150' x='425' y='1055'>
               <formatted-text>
                 <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Nutritional Deep Dive</run>
               </formatted-text>
@@ -10988,8 +11003,8 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='8311' id='19' leg-item-layout='horz' leg-item-order='normal' name='Nutrient Composition of Cuisine by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[:Measure Names]' type-v2='color' w='22775' x='24891' y='12401' />
-        <zone h='10950' id='8' leg-item-layout='grid' name='Neutrition Distribution on Top 10 Recepies by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Values:nk]' type-v2='color' w='11796' x='86504' y='10026' />
+        <zone h='7256' id='19' leg-item-layout='horz' leg-item-order='normal' name='Nutrient Composition of Cuisine by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[:Measure Names]' type-v2='color' w='19607' x='29171' y='12005' />
+        <zone h='10950' id='8' leg-item-layout='grid' name='Neutrition Distribution on Top 10 Recepies by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Values:nk]' type-v2='color' w='11796' x='89957' y='11214' />
         <zone h='6992' id='51' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='38217' x='60536' y='2639'>
           <zone forceUpdate='true' h='6992' id='49' type-v2='text' w='19128' x='60521' y='2639'>
             <formatted-text>
@@ -11056,9 +11071,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='129' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='128' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
-                <zone forceUpdate='true' h='10018' id='24' type-v2='text' w='99150' x='425' y='1055'>
+            <zone h='100000' id='131' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='130' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+                <zone forceUpdate='true' h='10017' id='24' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Nutritional Deep Dive</run>
                   </formatted-text>
@@ -11131,7 +11146,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='249' h='45918' id='16' is-fixed='true' name='Nutrient Composition of Cuisine by Rating' w='48247' x='425' y='11073'>
+                <zone fixed-size='249' h='45918' id='16' is-fixed='true' name='Nutrient Composition of Cuisine by Rating' w='48245' x='425' y='11072'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11140,7 +11155,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='8311' id='19' leg-item-layout='horz' leg-item-order='normal' name='Nutrient Composition of Cuisine by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[:Measure Names]' type-v2='color' w='22775' x='24891' y='12401'>
+                <zone h='7256' id='19' leg-item-layout='horz' leg-item-order='normal' name='Nutrient Composition of Cuisine by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[:Measure Names]' type-v2='color' w='19607' x='29171' y='12005'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11149,7 +11164,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='249' h='45899' id='3' is-fixed='true' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50903' x='48672' y='11073'>
+                <zone fixed-size='249' h='45919' id='3' is-fixed='true' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50905' x='48670' y='11072'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11158,7 +11173,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6860' id='8' leg-item-layout='horz' name='Neutrition Distribution on Top 10 Recepies by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Values:nk]' type-v2='color' w='15806' x='80336' y='12533'>
+                <zone h='10950' id='8' leg-item-layout='grid' name='Neutrition Distribution on Top 10 Recepies by Rating' pane-specification-id='0' param='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Values:nk]' type-v2='color' w='11796' x='89957' y='11214'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11167,7 +11182,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='227' h='41973' id='25' is-fixed='true' name='Calory Distribution of Top 5 Countries By Calories' w='24914' x='48672' y='56972'>
+                <zone fixed-size='115' h='21900' id='9' is-fixed='true' name='Country by Calories' w='48245' x='425' y='56990'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11176,7 +11191,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='227' h='41973' id='26' is-fixed='true' name='Protine Distribution of Top 5 Countries By Protine' w='25989' x='73586' y='56972'>
+                <zone fixed-size='227' h='41954' id='25' is-fixed='true' name='Calory Distribution of Top 5 Countries By Calories' w='24913' x='48670' y='56991'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11185,7 +11200,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='106' h='20311' id='9' is-fixed='true' name='Country by Calories' w='48247' x='425' y='56991'>
+                <zone fixed-size='227' h='41954' id='26' is-fixed='true' name='Protine Distribution of Top 5 Countries By Protine' w='25992' x='73583' y='56991'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11194,7 +11209,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='113' h='21643' id='20' is-fixed='true' name='Top Cuisine Complexity' w='48247' x='425' y='77302'>
+                <zone fixed-size='104' h='20055' id='20' is-fixed='true' name='Top Cuisine Complexity' w='48245' x='425' y='78890'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11343,8 +11358,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='124' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='123' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='126' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='125' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8707' id='12' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='18'>Recipe Popularity</run>
@@ -11468,7 +11483,7 @@
       <simple-id uuid='{EFB13BD4-6859-4ECB-932C-830BD1F4FD4A}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.5' show-side-pane='false' source-height='75'>
+  <windows show-side-pane='false' source-height='75'>
     <window class='worksheet' name='Country by Calories'>
       <cards>
         <edge name='left'>
@@ -11991,9 +12006,9 @@
       <cards>
         <edge name='left'>
           <strip size='160'>
-            <card size='19' type='pages' />
-            <card size='45' type='filters' />
-            <card size='126' type='marks' />
+            <card size='12' type='pages' />
+            <card size='30' type='filters' />
+            <card size='84' type='marks' />
           </strip>
         </edge>
         <edge name='top'>
@@ -12293,7 +12308,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='7' />
+      <active id='-1' />
       <simple-id uuid='{F3744D1C-4B90-411B-AF25-C5B415AA4F9D}' />
     </window>
     <window class='dashboard' maximized='true' name='Nutritional Deep Dive'>
@@ -12317,7 +12332,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='8' />
+      <active id='-1' />
       <device-preview selected='Desktop' />
       <simple-id uuid='{3FB8B331-4FA5-4B3B-819D-227F7FF2F956}' />
     </window>
