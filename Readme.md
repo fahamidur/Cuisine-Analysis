@@ -2,15 +2,11 @@
 
 This project collects, processes, and analyzes recipes from **AllRecipes.com** to uncover global cooking patterns, nutritional trends, and cultural differences in food preparation. It is designed for **food enthusiasts, nutrition researchers, data analysts, and anyone interested in exploring culinary diversity** through data-driven insights and interactive visualizations.
 
-### Website
-
-<a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">🔗 Cuisine Analysis Dashboard</a>
-
 # Table of Contents
 
 1. [Cuisine Analysis](#cuisine-analysis)
 
-   * [Website](#website)
+   * [Importnat Links](#important-links)
    * [Motivation](#motivation)
    * [Background](#background)
 2. [Project Overview](#project-overview)
@@ -27,6 +23,17 @@ This project collects, processes, and analyzes recipes from **AllRecipes.com** t
    * [Dashboard 3: Nutritional Deep Dive](#dashboard-3-nutritional-deep-dive)
    * [Dashboard 4: Ingredient & Nutrition Impact](#dashboard-4-ingredient--nutrition-impact)
 
+4. [Build from Source](#build-from-source)
+
+
+
+
+### Important Links
+<a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">🔗 Cuisine Analysis Tableau Dashboard</a>
+
+<a href="https://www.allrecipes.com/cuisine-a-z-6740455" target="_blank">🔗 Source Site: AllRecipes.com </a>
+
+
 ### Motivation
 
 Food is one of the most universal aspects of culture, yet recipes and nutrition data are often scattered across different sources. I wanted to bring this information together in a structured way and uncover meaningful insights. By scraping a **recipe website**, analyzing the data, and visualizing it in Tableau, this project aims to highlight cuisine trends, nutritional patterns, and ingredient usage in a way that is interactive, insightful, and easy to explore.
@@ -41,7 +48,7 @@ This project collects, processes, and analyzes international cuisine recipes fro
 
 ### 1. Data Collection
 
-* Scraped recipe metadata (name, cuisine, link) for **2100+ international recipes across cuisines**.
+* Scraped recipe metadata (name, cuisine, link) for **2118 international recipes across cuisines**.
 * Extracted detailed recipe information including:
 
   * Preparation time
@@ -66,50 +73,19 @@ This project collects, processes, and analyzes international cuisine recipes fro
 
 ### 4. Data Export
 
+* After doing all of these steps finally there are 2118 data remaining.
 * Saved the final cleaned and enriched dataset as:
 
   * `final_dataset.csv`
   * `final_dataset.xlsx`
 
-### 5. Tableau Dashboards
 
-To visualize and explore the enriched dataset, four interactive Tableau dashboards were created:
 
-#### 1. Nutrition at a Glance
-
-* Highlights **highest and lowest nutritional values** of recipes at a glance.
-* Interactive **map** showing calories by country.
-* **Stacked bar chart** comparing average carbs, fat, and protein across countries.
-
-#### 2. Popular Recipes
-
-* **Cooking time vs. average rating** visualization.
-* **Average rating vs. servings** for top 10 countries.
-* **Top 10 cuisines by rating**.
-* **Distribution of cooking times** (minutes) across cuisines.
-
-#### 3. Nutritional Deep Dive
-
-* **Ingredient distribution** for the top 10 recipes by rating.
-* **Top 3 cuisines** ranked by average number of ingredients used.
-* **Nutritional composition of cuisines** by rating.
-* **Calorie distribution** of the top 5 countries (box plot).
-* **Protein distribution** of the top 5 countries (box plot).
-
-#### 4. Ingredient Impact
-
-* **Average calories** of cuisines with/without meat (bar chart).
-* **Average fat** of cuisines with/without dairy (bar chart).
-* **Average protein** of cuisines with/without seafood (bar chart).
-* **Correlation heatmap** between ingredients and nutritional values.
-
-🔗 **Live Dashboard**: <a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">Explore on Tableau Public</a>
-
-# Tableau Dashboards
+# <a href="https://public.tableau.com/views/CuisineAnalysis_17558876860730/Nutrition?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">Tableau Dashboards</a>
 
 ## Dashboard 1: Cuisine Analysis
 
-![Cuisine Analysis](screenshots/dashboard-1.PNG)
+![Cuisine Analysis](assets/screenshots/dashboard-1.PNG)
 
 **Description**
 This dashboard provides a global analysis of cuisine nutrition data, highlighting calorie, fat, carb, and protein distributions across countries and recipes.
@@ -129,7 +105,7 @@ This dashboard provides a global analysis of cuisine nutrition data, highlightin
 
 ## Dashboard 2: Recipe Popularity
 
-![Recipe Popularity](screenshots/dashboard-2.PNG)
+![Recipe Popularity](assets/screenshots/dashboard-2.PNG)
 
 **Description**
 This dashboard explores recipe popularity by analyzing ratings, cooking time, and serving patterns across cuisines and countries.
@@ -150,7 +126,7 @@ This dashboard explores recipe popularity by analyzing ratings, cooking time, an
 
 ## Dashboard 3: Nutritional Deep Dive
 
-![Nutritional Deep Dive](screenshots/dashboard-3.PNG)
+![Nutritional Deep Dive](assets/screenshots/dashboard-3.PNG)
 
 **Description**
 This dashboard provides a detailed breakdown of nutrition and ingredients in top-rated cuisines, along with calorie and protein comparisons across countries.
@@ -173,7 +149,7 @@ This dashboard provides a detailed breakdown of nutrition and ingredients in top
 
 ## Dashboard 4: Ingredient & Nutrition Impact
 
-![Ingredient & Nutrition Impact](screenshots/dashboard-4.PNG)
+![Ingredient & Nutrition Impact](assets/screenshots/dashboard-4.PNG)
 
 **Description**
 This dashboard explores how the presence of specific ingredients (meat, dairy, seafood, grains, etc.) impacts the nutritional profile of cuisines. It also highlights the relationship between cooking complexity (time and ingredient count) and nutrient distribution.
@@ -196,3 +172,55 @@ This dashboard explores how the presence of specific ingredients (meat, dairy, s
   * Vegetables and herbs contribute moderately to protein content.
   * Grains correlate most strongly with carbs (0.30).
   * Spices show minimal direct nutrient impact.
+
+##  Build from Source
+
+**Step 1: Install Dependencies**
+
+Make sure you have Python 3.8 or later installed.
+From the project root directory, install all required dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all libraries needed for web scraping, preprocessing, and further analysis.
+
+
+
+**Step 2: Run the Web Scraper**
+
+Navigate to the **`src`** folder and execute the scraper script to collect data from the target website:
+
+```bash
+cd src
+python scraper.py
+```
+
+This script performs automated scraping and saves the collected raw data in the predefined output path inside the project.
+
+**Step 3: Data Preprocessing**
+
+Once scraping is complete, open the preprocessing notebook to review and execute the data cleaning steps:
+
+```bash
+jupyter notebook preprocessing.ipynb
+```
+
+The notebook illustrates the complete preprocessing workflow, including data cleaning, transformation, and preparation for further modelling or analysis.
+
+
+**Summary**
+
+| File                      | Purpose                                 |
+| ------------------------- | --------------------------------------- |
+| `requirements.txt`        | Installs all project dependencies       |
+| `src/scraper.py`          | Scrapes data from the website           |
+| `src/preprocessing.ipynb` | Demonstrates the preprocessing pipeline |
+
+---
+
+**Python Version:** 3.8+
+**Dependencies:** Listed in `requirements.txt`
+
+---
