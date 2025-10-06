@@ -175,10 +175,14 @@ This dashboard explores how the presence of specific ingredients (meat, dairy, s
 
 ##  Build from Source
 
-**Step 1: Install Dependencies**
+**Step 1: Clone and Install Dependencies**
+Clone the repo and get into the root directory.
+```bash
+git clone https://github.com/fahamidur/Cuisine-Analysis.git
+cd Cuisine-Analysis
+```
 
-Make sure you have Python 3.8 or later installed.
-From the project root directory, install all required dependencies by running:
+Make sure you have Python 3.8 or later installed.From the project root directory, install all required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
