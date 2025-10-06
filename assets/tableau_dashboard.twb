@@ -24,7 +24,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location derived-from='https://public.tableau.com/workbooks/CuisineAnalysis_17558876860730?rev=2.6' id='CuisineAnalysis_17558876860730' path='/workbooks' revision='4.9' />
+  <repository-location derived-from='https://public.tableau.com/workbooks/CuisineAnalysis_17558876860730?rev=2.6' id='CuisineAnalysis_17558876860730' path='/workbooks' revision='5.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -682,14 +682,6 @@
       <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
         <style-rule element='mark'>
-          <encoding attr='color' field='[none:Calculation_60517166710005764:nk]' palette='sf_water' type='palette'>
-            <map to='#073e92'>
-              <bucket>true</bucket>
-            </map>
-            <map to='#2d9ced'>
-              <bucket>false</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[none:Country:nk]' palette='sf_water' type='palette'>
             <map to='#051c61'>
               <bucket>&quot;Brazil&quot;</bucket>
@@ -816,6 +808,22 @@
             </map>
             <map to='#96f2ee'>
               <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_60517166710005764:nk]' palette='sf_water' type='palette'>
+            <map to='#073e92'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_60517166711742469:nk]' type='palette'>
+            <map to='#073e92'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#2d9ced'>
+              <bucket>false</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:Cuisine:nk]' palette='sf_water' type='palette'>
@@ -6889,14 +6897,6 @@
               <bucket>&quot;Zucchini with Dill Weed and Garlic-Yogurt Sauce&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Calculation_60517166711742469:nk]' type='palette'>
-            <map to='#073e92'>
-              <bucket>true</bucket>
-            </map>
-            <map to='#2d9ced'>
-              <bucket>false</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[none:Calculation_60517166714789894:nk]' type='palette'>
             <map to='#073e92'>
               <bucket>true</bucket>
@@ -9464,7 +9464,7 @@
         <style>
           <style-rule element='header'>
             <format attr='width' field='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Cuisine:nk]' value='344' />
-            <format attr='height' field='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Names:nk]' value='95' />
+            <format attr='height' field='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Names:nk]' value='87' />
           </style-rule>
           <style-rule element='label'>
             <format attr='text-orientation' field='[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[none:Pivot Field Names:nk]' value='-90' />
@@ -10450,8 +10450,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='137' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='136' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='143' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='142' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
                 <zone forceUpdate='true' h='8162' id='22' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>Ingredient Impact</run>
@@ -10782,8 +10782,8 @@
           </layout-options>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='199' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='198' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='205' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='204' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
                 <zone fixed-size='50' h='7651' id='35' type-v2='title' w='99150' x='425' y='1055'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10968,11 +10968,11 @@
       <size minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='87873' id='22' param='horz' type-v2='layout-flow' w='99150' x='425' y='11072'>
-            <zone h='87873' id='10' type-v2='layout-basic' w='99150' x='425' y='11072'>
-              <zone h='87873' id='7' param='horz' type-v2='layout-flow' w='48245' x='425' y='11072'>
-                <zone h='87873' id='5' type-v2='layout-basic' w='48245' x='425' y='11072'>
-                  <zone h='45918' id='16' name='Nutrient Composition of Cuisine by Rating' w='48245' x='425' y='11072'>
+          <zone h='87880' id='22' param='horz' type-v2='layout-flow' w='99150' x='425' y='11065'>
+            <zone h='87880' id='10' type-v2='layout-basic' w='99150' x='425' y='11065'>
+              <zone h='87880' id='7' param='horz' type-v2='layout-flow' w='48241' x='425' y='11065'>
+                <zone h='87880' id='5' type-v2='layout-basic' w='48241' x='425' y='11065'>
+                  <zone h='45913' id='16' name='Nutrient Composition of Cuisine by Rating' w='48241' x='425' y='11065'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10980,7 +10980,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='21900' id='9' name='Country by Calories' w='48245' x='425' y='56990'>
+                  <zone h='21904' id='9' name='Country by Calories' w='48241' x='425' y='56978'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10988,7 +10988,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='20055' id='20' name='Top Cuisine Complexity' w='48245' x='425' y='78890'>
+                  <zone h='20063' id='20' name='Top Cuisine Complexity' w='48241' x='425' y='78882'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10998,7 +10998,7 @@
                   </zone>
                 </zone>
               </zone>
-              <zone h='41954' id='25' name='Calory Distribution of Top 5 Countries By Calories' w='24913' x='48670' y='56991'>
+              <zone h='46310' id='25' name='Calory Distribution of Top 5 Countries By Calories' w='24909' x='48666' y='52635'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -11006,7 +11006,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='41954' id='26' name='Protine Distribution of Top 5 Countries By Protine' w='25992' x='73583' y='56991'>
+              <zone h='46310' id='26' name='Protine Distribution of Top 5 Countries By Protine' w='26000' x='73575' y='52635'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -11014,7 +11014,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='45919' id='3' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50905' x='48670' y='11072'>
+              <zone h='41570' id='3' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50909' x='48666' y='11065'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -11024,8 +11024,8 @@
               </zone>
             </zone>
           </zone>
-          <zone h='10017' id='23' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
-            <zone forceUpdate='true' h='10017' id='24' type-v2='text' w='99150' x='425' y='1055'>
+          <zone h='10010' id='23' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone forceUpdate='true' h='10010' id='24' type-v2='text' w='99150' x='425' y='1055'>
               <formatted-text>
                 <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Nutritional Deep Dive</run>
               </formatted-text>
@@ -11110,11 +11110,11 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='132' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
-                <zone forceUpdate='true' h='10017' id='24' type-v2='text' w='99150' x='425' y='1055'>
+            <zone h='100000' id='139' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='138' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+                <zone forceUpdate='true' h='10010' id='24' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Nutritional Deep Dive</run>
                   </formatted-text>
@@ -11187,7 +11187,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='249' h='45918' id='16' is-fixed='true' name='Nutrient Composition of Cuisine by Rating' w='48245' x='425' y='11072'>
+                <zone fixed-size='249' h='45913' id='16' is-fixed='true' name='Nutrient Composition of Cuisine by Rating' w='48241' x='425' y='11065'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11205,7 +11205,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='249' h='45919' id='3' is-fixed='true' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50905' x='48670' y='11072'>
+                <zone fixed-size='225' h='41570' id='3' is-fixed='true' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50909' x='48666' y='11065'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11223,7 +11223,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='115' h='21900' id='9' is-fixed='true' name='Country by Calories' w='48245' x='425' y='56990'>
+                <zone fixed-size='251' h='46310' id='25' is-fixed='true' name='Calory Distribution of Top 5 Countries By Calories' w='24909' x='48666' y='52635'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11232,7 +11232,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='227' h='41954' id='25' is-fixed='true' name='Calory Distribution of Top 5 Countries By Calories' w='24913' x='48670' y='56991'>
+                <zone fixed-size='251' h='46310' id='26' is-fixed='true' name='Protine Distribution of Top 5 Countries By Protine' w='26000' x='73575' y='52635'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11241,7 +11241,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='227' h='41954' id='26' is-fixed='true' name='Protine Distribution of Top 5 Countries By Protine' w='25992' x='73583' y='56991'>
+                <zone fixed-size='115' h='21904' id='9' is-fixed='true' name='Country by Calories' w='48241' x='425' y='56978'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11250,7 +11250,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='104' h='20055' id='20' is-fixed='true' name='Top Cuisine Complexity' w='48245' x='425' y='78890'>
+                <zone fixed-size='104' h='20063' id='20' is-fixed='true' name='Top Cuisine Complexity' w='48241' x='425' y='78882'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11399,8 +11399,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='128' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='127' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='134' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='133' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
                 <zone forceUpdate='true' h='8707' id='12' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='18'>Recipe Popularity</run>
@@ -12376,7 +12376,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='4' />
       <device-preview selected='Desktop' />
       <simple-id uuid='{3FB8B331-4FA5-4B3B-819D-227F7FF2F956}' />
     </window>
