@@ -489,6 +489,7 @@
               <approx-count>44</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Cuisine</remote-name>
@@ -503,6 +504,7 @@
               <approx-count>3165</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Link</remote-name>
@@ -517,6 +519,7 @@
               <approx-count>3165</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total_Time</remote-name>
@@ -530,6 +533,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>255</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Servings</remote-name>
@@ -543,6 +547,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>50</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total_Rating</remote-name>
@@ -556,6 +561,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>30</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Rating_Count</remote-name>
@@ -569,6 +575,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>701</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Calories</remote-name>
@@ -582,6 +589,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1263</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Fat</remote-name>
@@ -595,6 +603,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>109</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Carbs</remote-name>
@@ -608,6 +617,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>160</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Protein</remote-name>
@@ -621,6 +631,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>98</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>num_ingredients</remote-name>
@@ -634,6 +645,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>primary_ingredient</remote-name>
@@ -648,6 +660,7 @@
               <approx-count>73</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Pivot Field Names</remote-name>
@@ -662,6 +675,7 @@
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='binary' />
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Pivot Field Values</remote-name>
@@ -675,6 +689,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Sheet1_A672E52DFB5748C6AD7637C867E73FD5]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -6905,14 +6920,6 @@
               <bucket>false</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Pivot Field Values:nk]' palette='sf_water' type='palette'>
-            <map to='#073e92'>
-              <bucket>true</bucket>
-            </map>
-            <map to='#96f2ee'>
-              <bucket>false</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[:Measure Names]' palette='sf_water' type='palette'>
             <map to='#053661'>
               <bucket>&quot;[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[avg:Nutrition_Facts.Protein:qk]&quot;</bucket>
@@ -6976,6 +6983,14 @@
             </map>
             <map to='#ff9da7'>
               <bucket>&quot;[federated.0c6f4gr0vih02e16mx4hg0vmcge6].[max:Total_Time:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Pivot Field Values:nk]' palette='sf_water' type='palette'>
+            <map to='#073e92'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#96f2ee'>
+              <bucket>false</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -7459,7 +7474,6 @@
               <approx-count>42</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Cuisine</remote-name>
@@ -7474,7 +7488,6 @@
               <approx-count>1620</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Link</remote-name>
@@ -7489,7 +7502,6 @@
               <approx-count>1620</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total_Time</remote-name>
@@ -7503,7 +7515,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>152</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Servings</remote-name>
@@ -7517,7 +7528,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>45</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total_Rating</remote-name>
@@ -7531,7 +7541,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>22</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Rating_Count</remote-name>
@@ -7545,7 +7554,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>390</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Calories</remote-name>
@@ -7559,7 +7567,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>693</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Fat</remote-name>
@@ -7573,7 +7580,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>82</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Carbs</remote-name>
@@ -7587,7 +7593,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>121</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Nutrition_Facts.Protein</remote-name>
@@ -7601,7 +7606,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>82</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>num_ingredients</remote-name>
@@ -7615,7 +7619,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>24</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>primary_ingredient</remote-name>
@@ -7630,7 +7633,6 @@
               <approx-count>54</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_meat</remote-name>
@@ -7644,7 +7646,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_seafood</remote-name>
@@ -7658,7 +7659,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_dairy</remote-name>
@@ -7672,7 +7672,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_vegetable</remote-name>
@@ -7686,7 +7685,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_fruit</remote-name>
@@ -7700,7 +7698,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_grain</remote-name>
@@ -7714,7 +7711,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_spice</remote-name>
@@ -7728,7 +7724,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>has_herb</remote-name>
@@ -7742,7 +7737,6 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[Sheet1_1ED029F260274BCF8CFE2C552E54F917]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -10450,8 +10444,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='143' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='142' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='147' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='146' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8162' id='22' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='15'>Ingredient Impact</run>
@@ -10782,8 +10776,8 @@
           </layout-options>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='205' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='204' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='209' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='208' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='50' h='7651' id='35' type-v2='title' w='99150' x='425' y='1055'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10968,11 +10962,11 @@
       <size minheight='560' minwidth='420' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='87880' id='22' param='horz' type-v2='layout-flow' w='99150' x='425' y='11065'>
-            <zone h='87880' id='10' type-v2='layout-basic' w='99150' x='425' y='11065'>
-              <zone h='87880' id='7' param='horz' type-v2='layout-flow' w='48241' x='425' y='11065'>
-                <zone h='87880' id='5' type-v2='layout-basic' w='48241' x='425' y='11065'>
-                  <zone h='45913' id='16' name='Nutrient Composition of Cuisine by Rating' w='48241' x='425' y='11065'>
+          <zone h='87881' id='22' param='horz' type-v2='layout-flow' w='99150' x='425' y='11064'>
+            <zone h='87881' id='10' type-v2='layout-basic' w='99150' x='425' y='11064'>
+              <zone h='87881' id='7' param='horz' type-v2='layout-flow' w='48239' x='425' y='11064'>
+                <zone h='87881' id='5' type-v2='layout-basic' w='48239' x='425' y='11064'>
+                  <zone h='45912' id='16' name='Nutrient Composition of Cuisine by Rating' w='48239' x='425' y='11064'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10980,7 +10974,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='21904' id='9' name='Country by Calories' w='48241' x='425' y='56978'>
+                  <zone h='21904' id='9' name='Country by Calories' w='48239' x='425' y='56976'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10988,7 +10982,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='20063' id='20' name='Top Cuisine Complexity' w='48241' x='425' y='78882'>
+                  <zone h='20065' id='20' name='Top Cuisine Complexity' w='48239' x='425' y='78880'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -10998,7 +10992,7 @@
                   </zone>
                 </zone>
               </zone>
-              <zone h='46310' id='25' name='Calory Distribution of Top 5 Countries By Calories' w='24909' x='48666' y='52635'>
+              <zone h='46314' id='25' name='Calory Distribution of Top 5 Countries By Calories' w='24908' x='48664' y='52631'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -11006,7 +11000,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='46310' id='26' name='Protine Distribution of Top 5 Countries By Protine' w='26000' x='73575' y='52635'>
+              <zone h='46314' id='26' name='Protine Distribution of Top 5 Countries By Protine' w='26003' x='73572' y='52631'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -11014,7 +11008,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='41570' id='3' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50909' x='48666' y='11065'>
+              <zone h='41567' id='3' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50911' x='48664' y='11064'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -11024,8 +11018,8 @@
               </zone>
             </zone>
           </zone>
-          <zone h='10010' id='23' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
-            <zone forceUpdate='true' h='10010' id='24' type-v2='text' w='99150' x='425' y='1055'>
+          <zone h='10009' id='23' param='horz' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone forceUpdate='true' h='10009' id='24' type-v2='text' w='99150' x='425' y='1055'>
               <formatted-text>
                 <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Nutritional Deep Dive</run>
               </formatted-text>
@@ -11112,9 +11106,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='139' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='138' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
-                <zone forceUpdate='true' h='10010' id='24' type-v2='text' w='99150' x='425' y='1055'>
+            <zone h='100000' id='143' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97890' id='142' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+                <zone forceUpdate='true' h='10009' id='24' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='15'>Nutritional Deep Dive</run>
                   </formatted-text>
@@ -11187,7 +11181,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='249' h='45913' id='16' is-fixed='true' name='Nutrient Composition of Cuisine by Rating' w='48241' x='425' y='11065'>
+                <zone fixed-size='249' h='45912' id='16' is-fixed='true' name='Nutrient Composition of Cuisine by Rating' w='48239' x='425' y='11064'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11205,7 +11199,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='225' h='41570' id='3' is-fixed='true' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50909' x='48666' y='11065'>
+                <zone fixed-size='225' h='41567' id='3' is-fixed='true' name='Neutrition Distribution on Top 10 Recepies by Rating' w='50911' x='48664' y='11064'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11223,7 +11217,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='251' h='46310' id='25' is-fixed='true' name='Calory Distribution of Top 5 Countries By Calories' w='24909' x='48666' y='52635'>
+                <zone fixed-size='251' h='46314' id='25' is-fixed='true' name='Calory Distribution of Top 5 Countries By Calories' w='24908' x='48664' y='52631'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11232,7 +11226,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='251' h='46310' id='26' is-fixed='true' name='Protine Distribution of Top 5 Countries By Protine' w='26000' x='73575' y='52635'>
+                <zone fixed-size='251' h='46314' id='26' is-fixed='true' name='Protine Distribution of Top 5 Countries By Protine' w='26003' x='73572' y='52631'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11241,7 +11235,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='115' h='21904' id='9' is-fixed='true' name='Country by Calories' w='48241' x='425' y='56978'>
+                <zone fixed-size='115' h='21904' id='9' is-fixed='true' name='Country by Calories' w='48239' x='425' y='56976'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11250,7 +11244,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='104' h='20063' id='20' is-fixed='true' name='Top Cuisine Complexity' w='48241' x='425' y='78882'>
+                <zone fixed-size='104' h='20065' id='20' is-fixed='true' name='Top Cuisine Complexity' w='48239' x='425' y='78880'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11399,8 +11393,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='134' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97890' id='133' param='vert' type-v2='layout-flow' w='99150' x='425' y='1055'>
+            <zone h='100000' id='138' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='137' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='8707' id='12' type-v2='text' w='99150' x='425' y='1055'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='18'>Recipe Popularity</run>

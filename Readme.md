@@ -36,7 +36,7 @@ This project collects, processes, and analyzes recipes from **AllRecipes.com** t
 
 ### Motivation
 
-Food is one of the most universal aspects of culture, yet recipes and nutrition data are often scattered across different sources. I wanted to bring this information together in a structured way and uncover meaningful insights. By scraping a **recipe website**, analyzing the data, and visualizing it in Tableau, this project aims to highlight cuisine trends, nutritional patterns, and ingredient usage in a way that is interactive, insightful, and easy to explore.
+Food is one of the most universal aspects of culture; yet, recipes and nutrition data are often scattered across various sources. I wanted to bring this information together in a structured way and uncover meaningful insights. By scraping a **recipe website**, analyzing the data, and visualizing it in Tableau, this project aims to highlight cuisine trends, nutritional patterns, and ingredient usage in a way that is interactive, insightful, and easy to explore.
 
 ### Background
 
@@ -49,7 +49,7 @@ This project collects, processes, and analyzes international cuisine recipes fro
 ### 1. Data Collection
 
 * Scraped recipe metadata (name, cuisine, link) for **2118 international recipes across cuisines**.
-* Extracted detailed recipe information including:
+* Extracted detailed recipe information, including:
 
   * Preparation time
   * Servings
@@ -73,7 +73,7 @@ This project collects, processes, and analyzes international cuisine recipes fro
 
 ### 4. Data Export
 
-* After doing all of these steps finally there are 2118 data remaining.
+* After doing all of these steps, there are 2118 data points remaining.
 * Saved the final cleaned and enriched dataset as:
 
   * `final_dataset.csv`
@@ -92,7 +92,7 @@ This dashboard provides a global analysis of cuisine nutrition data, highlightin
 
 **Visualizations & Features**
 
-* KPI cards showing highest/lowest calorie, fat, and carb cuisines.
+* KPI cards showing the highest/lowest calorie, fat, and carb cuisines.
 * World map displaying average calories by country.
 * Bar chart comparing average nutrients (carbs, fat, protein) across countries.
 * Tabs for exploring different perspectives (Nutrition, Popular Recipe, Nutritional Deep Dive, Ingredient Impact).
@@ -100,7 +100,7 @@ This dashboard provides a global analysis of cuisine nutrition data, highlightin
 **Insights**
 
 * "Codfish with Cream" is the highest-calorie and highest-fat **dish**, while "Simple Cajun Seasoning" and "Amish Friendship Bread" are on the low end.
-* Countries vary significantly in calorie density, with certain regions (e.g., U.S., Europe) showing higher averages.
+* Countries vary significantly in calorie density, with certain regions (e.g., the U.S., Europe) showing higher averages.
 * Carbs make up the largest proportion of nutrients in most countries, followed by fat and protein.
 
 ## Dashboard 2: Recipe Popularity
@@ -114,15 +114,15 @@ This dashboard explores recipe popularity by analyzing ratings, cooking time, an
 
 * Box-and-whisker plot comparing recipe preparation times across star ratings, showing medians, interquartile ranges, and outliers.
 * Bar chart showing the distribution of cooking times across recipes.
-* Treemap of top 10 countries by average rating and servings.
+* Treemap of the top 10 countries by average rating and servings.
 * Pie chart of the top 10 cuisines by rating.
 
 **Insights**
 
 * Most recipes are completed within 60 minutes, with fewer recipes requiring extended cooking times.
 * Higher-rated recipes tend to cluster between 4–5 stars regardless of cooking time, suggesting rating is less dependent on prep duration.
-* Denmark, Australia, and Norway appear among the top countries for high-rated and widely served recipes.
-* Popular dishes include Air Fryer Tofu Milanesa, Apple Danish with Cresent Roll Dough, Canjika, and others, showing diversity in global favorites.
+* Denmark, Australia, and Norway appear among the top countries for highly rated and widely served recipes.
+* Popular dishes include Air Fryer Tofu Milanesa, Apple Danish with Cresent Roll Dough, Canjica, and others, showing diversity in global favorites.
 
 ## Dashboard 3: Nutritional Deep Dive
 
@@ -135,10 +135,10 @@ This dashboard provides a detailed breakdown of nutrition and ingredients in top
 
 * Ingredient distribution matrix for top 5 recipes by rating (dairy, fruit, grain, herbs, meat, seafood, spices, vegetables).
 * Horizontal bar charts for nutrient composition (carbs, fat, protein) of cuisines by rating.
-* Country-level calorie comparison (Italy, Portugal, Indonesia leading).
+* Country-level calorie comparison (Italy, Portugal, and Indonesia leading).
 * Cuisine complexity chart showing recipes with the highest ingredient count.
-* Box plots of calorie distribution for top 5 countries by calories.
-* Box plots of protein distribution for top 5 countries by protein.
+* Box plots of calorie distribution for the top 5 countries by calories.
+* Box plots of protein distribution for the top 5 countries by protein.
 
 **Insights**
 
@@ -183,7 +183,18 @@ git clone https://github.com/fahamidur/Cuisine-Analysis.git
 cd Cuisine-Analysis
 ```
 
-Make sure you have Python 3.8 or later installed.From the project root directory, install all required dependencies by running:
+Make sure you have Python 3.8 or later installed.From the project root directory, First create a virtual environment
+
+```bash
+python -m venv env
+```
+After the environment is created run following command to activate it.
+
+```bash
+env\Scripts\activate
+```
+
+Install all required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
@@ -209,10 +220,10 @@ This script performs automated scraping and saves the collected raw data in the 
 Once scraping is complete, open the preprocessing notebook to review and execute the data cleaning steps:
 
 ```bash
-jupyter notebook preprocessing.ipynb
+Jupyter Notebook preprocessing.ipynb
 ```
 
-The notebook illustrates the complete preprocessing workflow, including data cleaning, transformation, and preparation for further modelling or analysis.
+The notebook illustrates the complete preprocessing workflow, including data cleaning, transformation, and preparation for further modeling or analysis.
 
 
 **Summary**
